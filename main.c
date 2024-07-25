@@ -23,7 +23,7 @@ Vector2 project(Vector3 Pcords, Vector3 Ccords, Vector2 Crot, Vector2 screen, Ve
 	};
 
 	Vector2 ang = {
-	      .x=atan2(Tcords.z, Tcords.x),
+		.x=atan2(Tcords.z, Tcords.x),
 	};
 
 	Vector2 rot = {
