@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <math.h>
 
-const float halfPI = M_PI/2.0;//
+const float halfPI = M_PI/2.0;
 
 Vector2 project(Vector3 Pcords, Vector3 Ccords, Vector2 Crot, Vector2 screen, Vector2 fov)
 {
